@@ -1,0 +1,48 @@
+-- 입사일이 1993년 2월19일 이면서 생일1962 10월 24일 직원의 이름을 구하고,
+-- 다시 해당 이름으로 조건을 검색해서 사번(EMP_NO)를 구헤야 하는 경우.
+
+select first_name, last_name  from employees
+where hire_date = '1993-02-19'
+and birth_date = '1964-10-24';
+
+select emp_no from employees
+where first_name = 'conrado'
+and last_name = 'serra';
+
+-- 서브 쿼리 사용 할꾸얀
+select emp_no from employees
+where first_name = (select first_name 
+				from employees
+				where hire_date = '1993-02-19'
+				and birth_date = '1964-10-24')
+and last_name = (select last_name
+				from employees
+				where hire_date = '1993-02-19'
+				and birth_date = '1964-10-24');
+
+-- 한줄로 만들었더
+select  emp_no
+from employees
+where (first_name , last_name ) = (select first_name,last_name
+									from employees
+									where hire_date = '1993-02-19'
+									and birth_date = '1964-10-24');
+
+-- 직원중에서 EMP_NO가 가장 높은 직원 찾기 
+-- 이름출력할꺼얀
+
+select first_name, last_name
+from employees
+where emp_no =(select max(emp_no)
+				from employees);
+
+select max(emp_no),first_name, last_name, emp_no
+from employees
+group by first_name, employees.last_name, emp_no
+order by emp_no desc
+limit 1;
+
+select first_name, last_name
+from employees
+order by emp_no desc
+limit 1;

@@ -1,0 +1,15 @@
+1.tcl (transaction controll language)
+
+2.트랜잭션(transaciton)
+ - 데이터베이스에서 실행되는 논리적인 작업 단위
+ - insert, update, delete와 같은 데이터베이스의 상태를 변화시키는 일련의 작업 단위를 의미
+ - 예시) a가 b에게 10,000원을 송금해야 한다.
+  > 1)a에게 10,000원이 있는지 조회(select)
+  > 2)a의 잔액에서 10,000원 빼기 (update)
+  > 3)b의 잔액에 10,000원 추가 (update)
+  
+ 3. commit 
+ 	- 현재 트랜잭션에서 작업한 내용을 데이터베이스에 반영
+ 	
+ 4.rollback
+ 	-현재 트랜잭션의 작업한 내용을 취소 (마지막 commit 시점으로 되돌아가기)

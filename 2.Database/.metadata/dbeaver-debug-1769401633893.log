@@ -1,0 +1,238 @@
+2026-01-23 09:23:00.739 - DBeaver 25.3.3.202601181752 is starting
+2026-01-23 09:23:00.740 - OS: Windows 11 10.0 (amd64)
+2026-01-23 09:23:00.740 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-01-23 09:23:00.740 - Install path: 'C:\Users\adminn\AppData\Local\DBeaver'
+2026-01-23 09:23:00.740 - Instance path: 'file:/C:/dev/study/2.Database/'
+2026-01-23 09:23:00.742 - Memory available 64Mb/1024Mb
+2026-01-23 09:23:00.751 - Create display
+2026-01-23 09:23:00.835 - Initialize desktop platform...
+2026-01-23 09:23:00.955 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.171.202601181752]
+2026-01-23 09:23:01.114 - Initialize base platform...
+2026-01-23 09:23:01.124 - send collected statistics
+2026-01-23 09:23:01.137 - Platform initialized (301ms)
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-01-23 09:23:01.244 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-01-23 09:23:01.321 - Starting instance server at http://localhost:55339
+2026-01-23 09:23:01.330 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.14.202601181752]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.73.202601181752]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace 텍스트 [org.eclipse.jface.text 3.29.0.v20251112-0859]
+2026-01-23 09:23:02.694 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.161.202601181752]
+2026-01-23 09:23:02.820 - Total database drivers: 127 (127)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
+2026-01-23 09:23:02.859 - Create actions
+2026-01-23 09:23:03.289 - Initialize workbench window
+2026-01-23 09:23:03.299 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.171.202601181752]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.171.202601181752]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601181752]
+2026-01-23 09:23:04.519 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601181752]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.12.202601181752]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.12.202601181752]
+2026-01-23 09:23:09.525 - Connect with 'DBeaver Sample Database (SQLite)' (dbeaver-sample-database-sqlite-1)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.64.202601181752]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.257.202601181752]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.220.202601181752]
+2026-01-23 09:23:09.571 - Execution context opened (DBeaver Sample Database (SQLite); Main; 0)
+2026-01-23 09:23:09.695 - Connected (dbeaver-sample-database-sqlite-1, SQLite JDBC [3.51.1.0])
+2026-01-23 09:23:20.455 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:221)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:110)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:50)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:99)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 19 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 22 more
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.147.202601181752]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start 콘솔 [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.200.v20251107-0507]
+2026-01-23 09:30:01.206 - Delete empty SQL script '\General\Scripts\Script.sql'
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.163.202601181752]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.256.202601181752]
+2026-01-23 09:35:13.386 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-01-23 09:35:13.419 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-01-23 09:35:21.353 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2026-01-23 09:35:21.495 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom]
+2026-01-23 09:35:21.515 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom]
+2026-01-23 09:35:21.536 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom]
+2026-01-23 09:35:22.305 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar]
+2026-01-23 09:35:22.375 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar]
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601181752]
+2026-01-23 09:35:30.031 - Statement 8 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\dev\study\2.Database\.metadata\sample-database-sqlite-1\Chinook.db)
+2026-01-23 09:35:30.032 - Execution context closed (DBeaver Sample Database (SQLite), 0)
+2026-01-23 09:35:30.033 - Disconnected (dbeaver-sample-database-sqlite-1)
+2026-01-23 09:35:30.128 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:30.182 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:30.186 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:30.195 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:30.236 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:30.237 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:30.241 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:30.242 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:31.599 - Connect with 'localhost' (mysql8-19be846cf56-376133443d4d3568)
+2026-01-23 09:35:31.610 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:31.611 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:31.611 - Execution context opened (localhost; Main; 1)
+2026-01-23 09:35:31.695 - Execution context opened (localhost; Metadata; 2)
+2026-01-23 09:35:31.731 - Connected (mysql8-19be846cf56-376133443d4d3568, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-01-23 09:35:32.149 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:32.165 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:32.601 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.053 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.054 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.065 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.066 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.082 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.083 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.167 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.168 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.172 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.173 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.218 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.508 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.534 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.753 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:33.754 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script-1.sql)
+2026-01-23 09:35:33.817 - Delete empty SQL script '\General\Scripts\Script-1.sql'
+2026-01-23 09:35:33.840 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:34.017 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:34.051 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:34.315 - Datasource dbeaver-sample-database-sqlite-1 not found in project General (/General/Scripts/Script.sql)
+2026-01-23 09:35:34.352 - Delete empty SQL script '\General\Scripts\Script.sql'
+2026-01-23 09:35:35.534 - Execution context opened (localhost; SQLEditor <Script.sql>; 3)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.149.202601181752]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.149.202601181752]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601181752]
+2026-01-23 09:35:53.213 - Execution context closed (localhost, 3)
+2026-01-23 09:35:54.690 - Execution context opened (localhost; SQLEditor <Script.sql>; 4)
+2026-01-23 09:58:11.866 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 5)
+2026-01-23 10:05:39.452 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:39.452 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:39.452 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:39.452 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:39.453 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:40.650 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:40.651 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:40.651 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:40.651 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 10:05:40.652 - Can't parse numeric value [SELECT *FROM salaries;] using formatter: For input string: "SELE"
+2026-01-23 11:02:43.469 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 6)
+2026-01-23 12:38:50.258 - Application goes into sleep mode
+2026-01-23 12:44:52.664 - Application wakes
+2026-01-23 13:00:17.182 - Application goes into sleep mode
+2026-01-23 13:02:25.704 - Application wakes
+2026-01-23 13:17:53.351 - Application goes into sleep mode
+2026-01-23 13:19:42.663 - Application wakes
+2026-01-23 13:56:56.762 - Execution context closed (localhost, 6)
+2026-01-23 13:57:00.632 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 7)
+2026-01-23 15:33:11.529 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 8)
+2026-01-23 15:58:24.417 - Can't parse numeric value [salaries] using formatter: For input string: "salaries"
+2026-01-23 15:58:24.419 - Can't parse numeric value [salaries] using formatter: For input string: "salaries"
+2026-01-23 15:58:24.420 - Can't parse numeric value [salaries] using formatter: For input string: "salaries"
+2026-01-23 15:58:24.420 - Can't parse numeric value [salaries] using formatter: For input string: "salaries"
+2026-01-23 15:58:24.421 - Can't parse numeric value [salaries] using formatter: For input string: "salaries"
+2026-01-23 16:47:05.433 - Execution context opened (localhost; SQLEditor <Script-5.sql>; 9)
+2026-01-23 17:09:25.079 - Execution context opened (localhost; SQLEditor <Script-6.sql>; 10)
+2026-01-23 18:22:14.804 - Execution context closed (localhost, 4)
+2026-01-23 18:22:14.855 - Execution context closed (localhost, 5)
+2026-01-23 18:22:14.904 - Execution context closed (localhost, 7)
+2026-01-23 18:22:14.944 - Execution context closed (localhost, 8)
+2026-01-23 18:22:14.959 - Execution context closed (localhost, 9)
+2026-01-23 18:22:15.006 - Execution context closed (localhost, 10)
+2026-01-23 18:22:15.101 - Dispose navigator model
+2026-01-23 18:22:15.119 - DBeaver is stopping
+2026-01-23 18:22:15.120 - Stop instance server
+2026-01-23 18:22:16.123 - Instance server has been stopped
+2026-01-23 18:22:16.123 - DBeaver shutdown completed
