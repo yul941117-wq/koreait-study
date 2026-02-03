@@ -5,67 +5,66 @@ import java.util.Scanner;
 public class Ex01_if문제 {
 
 	public static void main(String[] args) {
-	
-//		Q1. 점수를 입력받아 60점 이상이면 "합격", 아니면 "불합격" 출력
-		Scanner sc = new Scanner(System.in);
-		System.out.print("점수 써라 :");
+		Scanner sc = new Scanner(System.in); // Ctrl + Shift + O
 		
-		int a = sc.nextInt();
-		if (a >= 60) {
+//		Q1. 점수를 입력받아 60점 이상이면 "합격", 아니면 "불합격" 출력
+		int q1Score = 60;
+		if (q1Score >= 60) {
 			System.out.println("합격");
 		} else {
 			System.out.println("불합격");
 		}
 		
 //		Q2. 정수 하나를 입력받아 짝수인지 홀수인지 출력
+		int q2Number = 10;
 		
-		System.out.print("정수 :");
-		int b = sc.nextInt();
-		if (b % 2==0) {
+		if(q2Number % 2 == 0) {
 			System.out.println("짝수");
 		} else {
 			System.out.println("홀수");
 		}
 		
-
 //		Q3. 나이를 입력받아 20세 이상이면 "성인", 아니면 "미성년자" 출력
-		System.out.print("몇짤이얀 :");
-		
-		int age = sc.nextInt();	
-		if (age >= 20) {
+		int q3Age = 21;
+		if(q3Age >= 20) {
 			System.out.println("성인");
-		}else {
+		} else {
 			System.out.println("미성년자");
 		}
 		
 //		Q4. 비밀번호가 "1234"이면 "로그인 성공", 아니면 "로그인 실패" 출력
-		System.out.print("비번 :");
-		String password = sc.next();
-		if (password.equals("1234")) {
+		String q4Password = "1234";
+		
+		if("1234".equals(q4Password)) {
 			System.out.println("로그인 성공");
-			}else {
-				System.out.println("로그인 실패");
-			}
+		} else {
+			System.out.println("로그인 실패");
+		}
 		
-
 //		Q7. 나이를 입력받아 요금 출력
-		System.out.print("몇살이세요 :");
-		
-		int c = sc.nextInt();
-		if (c <= 12) {
-			System.out.println("3,000원");
-		}else if(c <= 18) {
-			System.out.println("5,000원");
-		}else if(c >= 19) {
-			System.out.println("10,000원");
-			}
 //		 - 12세 이하 : 3,000원
 //		 - 18세 이하 : 5,000원
 //		 - 19세 이상 : 10,000원
-
-//		Q8. 아이디와 비밀번호를 입력받아 아이디가 "admin"이고 비밀번호가 "1234"면 관리자 로그인 성공
+		int q7Age = 18;
 		
-
+		if(q7Age <= 12) {
+			System.out.println("3,000원");
+		} else if(q7Age <= 18) {
+			System.out.println("5,000원");
+		} else if(q7Age >= 19) {
+			System.out.println("10,000원");
+		}
+		
+//		Q8. 아이디와 비밀번호를 입력받아 아이디가 "admin"이고 비밀번호가 "1234"면 
+//		관리자 로그인 성공
+		String q8Id = "admin";
+		String q8Password = "1234";
+		
+		if("admin".equals(q8Id) && "1234".equals(q8Password)) {
+			System.out.println("관리자 로그인 성공");
+		}
+				
+		
 //		Q9. 점수와 결석 여부를 입력받아 결과 출력
 //		 - 결석 여부는 true, false로 받음
 //		 - 결석이면 무조건 F
@@ -73,7 +72,22 @@ public class Ex01_if문제 {
 //		 - 80 이상 B
 //		 - 70 이상 C
 //		 - 그 외 F
-
+		int q9Score = 89;
+		boolean q9 = false;
+		
+		if(!q9) { 
+			System.out.println("F");
+		} else if(q9Score >= 90) {
+			System.out.println("A");
+		} else if(q9Score >= 80) {
+			System.out.println("B");
+		} else if(q9Score >= 70) {
+			System.out.println("C");
+		} else {
+			System.out.println("F");
+		}
+				
+		
 //		Q10. 스캐너로 사용자로부터 몇 월인지 입력 받으세요.
 //		  - 해당하는 계절과 출력 메시지는 아래와 같습니다.
 //		  - 3, 4, 5 : 봄
@@ -83,10 +97,19 @@ public class Ex01_if문제 {
 //		  - 그 외 : 해당하는 계절이 없습니다.
 //		        ex) 1을 입력 받을 경우 “겨울” 출력
 //		             위의 예시를 활용하여 OR 연산자 또는 AND 연산자를 활용하여 문제를 풀어보세요.
-
+		int q10month = 7;
+		
+		if(q10month >= 3 && q10month <= 5) {
+			System.out.println("봄");
+		} else if(q10month == 6 || q10month == 7 || q10month == 8) {
+			System.out.println("여름");
+		} else if(q10month == 9 || q10month == 10 || q10month == 11) {
+			System.out.println("가을");
+		} else if(q10month == 12 || q10month == 1 || q10month == 2) {
+			System.out.println("겨울");
+		}
 
 
 	}
+
 }
-
-

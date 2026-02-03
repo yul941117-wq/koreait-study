@@ -15,8 +15,9 @@ public class Ex09_2dArray {
 		arr[1][1] = 200;
 		arr[1][2] = 300;
 		
+		
 		int[][] arr2 = {
-				{10, 20, 30},
+				{10,   20,  30},
 				{100, 200, 300}
 		};
 		
@@ -29,15 +30,33 @@ public class Ex09_2dArray {
 				{3, 7, 2},
 				{6, 1, 9}
 		};
-		for(int i=0; i<inventory.length; i++) {
+		
+		for(int[] a : inventory) {
 			
-
-		for(int j=0; j<inventory[i].length; j++) {
-			System.out.println(inventory[i][j]);
+			for(int b : a) {
+				
+			}
+			
 		}
+		
+
 	}
-	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
