@@ -33,7 +33,8 @@ public class Ex05_for {
 			System.out.println(i);
 		}
 		
-		
+		}
+	 
 		// 로또번호 생성하기
 		Random rd = new Random();
 		

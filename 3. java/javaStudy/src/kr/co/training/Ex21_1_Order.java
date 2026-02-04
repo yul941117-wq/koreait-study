@@ -45,8 +45,5 @@ public class Ex21_1_Order {
 	
 	//주문 번호(number), 주문 금액(amount), 주문 상태(status)
 	// ex) "ORKER3", 120.5, "결제완료"
-	
-
-
         }
     }

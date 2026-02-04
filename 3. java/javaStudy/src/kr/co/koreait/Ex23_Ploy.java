@@ -6,8 +6,7 @@ public class Ex23_Ploy {
 		//	부모 클래스 타입으로 객체 생성 (평소 방식)
 		
 		Ex23_1_Parent parent = new Ex23_1_Parent();
-		parent.printHello();
-
+		parent.printHello()
 		// 자식 클래스 타입으로 객체 생성 (평소 방식)
 		Ex23_1_child child = new Ex23_1_child();
 		child.printHello();
@@ -30,6 +29,8 @@ public class Ex23_Ploy {
 		cr.computer1 = new Ex23_3_Samsong(); 
 		cr.computer2 = new Ex23_3_Samsong(); 
 		cr.computer3 = new Ex23_3_Samsong();
+		
+		
 
 	}
 }
