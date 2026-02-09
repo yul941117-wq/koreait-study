@@ -47,11 +47,7 @@ public class Ex24_3_CarImpl implements Ex24_3_Car{
 //		   - isRunning 변수가 false 일 때
 //		      --> "자동차가 정지 상태 입니다. 먼저 시작하세요." 출력
 		
-		@Override
-		public void accelerate(int speed) {
-			if(isRunning) {
-				isRunning = true;
-				speed = 
+
 				
 			}
 		}
